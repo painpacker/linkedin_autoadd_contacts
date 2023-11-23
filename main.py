@@ -10,8 +10,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 driver = webdriver.Chrome()
 driver.get("https://www.linkedin.com/mynetwork/")
 time.sleep(5)
-email_address_form = ("alreadydecomposed@gmail.com")
-password_form = ("4da8db88")
+email_address_form = ("")
+password_form = ("")
 actions = ActionChains(driver)
 
 def submit_form():
